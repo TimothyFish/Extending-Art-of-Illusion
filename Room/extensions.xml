@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+
+<extension name="Room" version="0.1" >
+  <author>Timothy Fish</author>
+  <date>August 2011</date>
+
+  <plugin class="extending.aoi.room.Room" />
+
+  <description>This plugin creates a room with four walls a floor and a ceiling.</description>
+
+  <comments>This project is to demonstrate the development of a ModelingTool.</comments>
+
+  <history>
+     <log version="0.1" date="September 2011" author="Timothy Fish" >- Initial Version</log>
+  </history>
+
+</extension>

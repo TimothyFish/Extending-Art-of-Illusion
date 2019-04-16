@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+
+<extension name="PreferencesWithMenu" version="0.1" >
+  <author>Timothy Fish</author>
+  <date>July 2011</date>
+
+  <plugin class="extending.aoi.preferences.PreferencesDialogPlugin" />
+
+  <description>This plugin hides the animation score when Art of Illusion loads based on the user's preferences.</description>
+
+  <comments>This project is to demonstrate a useful setup feature of plugins.</comments>
+
+  <history>
+     <log version="0.1" date="July 2011" author="Timothy Fish" >- Initial Version</log>
+  </history>
+
+</extension>

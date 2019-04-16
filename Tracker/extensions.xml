@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+
+<extension name="Tracker" version="0.1" >
+  <author>Timothy Fish</author>
+  <date>August 2011</date>
+
+  <plugin class="extending.aoi.tracker.TrackerPlugin" />
+  
+  <description>This plugin creates a special null object that will track the movements of another object.</description>
+  <resource name="icons/theme.xml" id="Tracker" type="UITheme"/>
+  <comments>This project is to demonstrate adding items to the tool palette, as well as saving object to the the .AOL file.</comments>
+
+  <history>
+     <log version="0.1" date="August 2011" author="Timothy Fish" >- Initial Version</log>
+  </history>
+
+</extension>

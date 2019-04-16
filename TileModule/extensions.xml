@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+
+<extension name="TileModule" version="0.1" >
+  <author>Timothy Fish</author>
+  <date>August 2011</date>
+
+  <plugin class="extending.aoi.tile.TileModule" />
+  
+  <description>This plugin creates a procedural module that will produce textures that look like tiles separated by grout.</description>
+  <resource name="icons/theme.xml" id="TileModule" type="UITheme"/>
+  <comments>This project is to demonstrate adding procedural modules.</comments>
+
+  <history>
+     <log version="0.1" date="August 2011" author="Timothy Fish" >- Initial Version</log>
+  </history>
+
+</extension>

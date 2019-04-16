@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+
+<extension name="Point At" version="0.1" >
+  <author>Timothy Fish</author>
+  <date>July 2011</date>
+
+  <plugin class="extending.aoi.point_at.PointAtPlugin" />
+
+  <description>This plugin adds the capability to point the selected object at.</description>
+
+  <comments>This project is to demonstrate the manipulation of scene objects and the use of windows in the user interface.</comments>
+
+  <history>
+     <log version="0.1" date="July 2011" author="Timothy Fish" >- Initial Version</log>
+  </history>
+
+</extension>

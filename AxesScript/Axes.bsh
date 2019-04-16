@@ -1,0 +1,36 @@
+/*
+<?xml version='1.0' standalone='yes' ?>
+<!-- xml header for scripts & plugin manager --> 
+<script>
+	<name>Axes</name>
+	<author>Timothy Fish</author>
+	<version>0.1</version>
+	<date>11/11/2011</date>
+	<description>
+This script creates an object that can be used to provide a visual
+representation of the coordinate system.
+    </description>
+</script>
+*/
+
+length = script.getParameter("length");
+size = script.getParameter("size");
+
+ObjectInfo createAxis(double length, double diameter){
+  axis = new Cylinder(length, diameter, diameter, 1.0);
+  return new ObjectInfo(axis, new CoordinateSystem(), "");
+}
+
+ObjectInfo obj = createAxis(length, size);
+if (obj != null)
+  script.addObject(obj);
+
+obj = createAxis(length, size);
+obj.getCoords().setOrientation(90.0, 0.0, 0.0);
+if (obj != null)
+  script.addObject(obj);
+  
+obj = createAxis(length, size);
+obj.getCoords().setOrientation(0.0, 0.0, 90.0);
+if (obj != null)
+  script.addObject(obj);

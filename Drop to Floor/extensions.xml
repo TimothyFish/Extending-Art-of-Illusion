@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+
+<extension name="Drop to Floor" version="0.1" >
+  <author>Timothy Fish</author>
+  <date>July 2011</date>
+
+  <plugin class="extending.aoi.drop_to_floor.DropToFloorPlugin" />
+
+  <description>This plugin adds a menu item that will cause the selected objects to drop to the "floor" of the scene.</description>
+
+  <comments>This project is to demonstrate the manipulation of scene objects.</comments>
+
+  <history>
+     <log version="0.1" date="July 2011" author="Timothy Fish" >- Initial Version</log>
+  </history>
+
+</extension>
