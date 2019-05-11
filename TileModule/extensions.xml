@@ -7,7 +7,6 @@
   <plugin class="extending.aoi.tile.TileModule" />
   
   <description>This plugin creates a procedural module that will produce textures that look like tiles separated by grout.</description>
-  <resource name="icons/theme.xml" id="TileModule" type="UITheme"/>
   <comments>This project is to demonstrate adding procedural modules.</comments>
 
   <history>
