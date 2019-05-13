@@ -1,5 +1,5 @@
 /**
-    Hide Score Plugin from Chapter 2 of the book "Extending Art of Illusion: Scripting 3D Scene Creation"
+    Hide Score Plugin from Chapter 2 of the book "Extending Art of Illusion: Scripting for 3D Artists"
     Copyright (C) 2019, 2011  Timothy Fish
 
     This program is free software: you can redistribute it and/or modify

@@ -1,5 +1,5 @@
 /**
-    Room Plugin from Chapter 9 of the book "Extending Art of Illusion: Scripting 3D Scene Creation"
+    Room Plugin from Chapter 9 of the book "Extending Art of Illusion: Scripting for 3D Artists"
     Copyright (C) 2019, 2011  Timothy Fish
 
     This program is free software: you can redistribute it and/or modify
